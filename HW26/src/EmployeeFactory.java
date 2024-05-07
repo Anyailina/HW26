@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class EmployeeFactory {
+public class  EmployeeFactory {
     public static List<Employee> createEmployee() {
         List<Employee> employees = new ArrayList<>();
         employees.add(new Employee("Иван", "Петров", 32, 20000, 1));
